@@ -45,7 +45,7 @@ function viewCart() {
             console.log(`${initial} ${twoItems}.`)
           }
             else if (cart.length > 2){
-              return(`${intro} ${beginning}, and ${end}.`)
+              return(`${initial} ${beginning}, and ${end}.`)
             }
   }
 
