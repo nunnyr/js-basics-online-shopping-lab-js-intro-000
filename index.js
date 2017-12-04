@@ -34,7 +34,7 @@ function addToCart(item) {
 //     let twoItems = itemsandprices.join(' and ');
 //     let first = itemsandprices.slice(0, -1).join(', ');
 //     let last = itemsandprices.slice(-1);
-// 
+//
 //       if (cart.length === 0){
 //         console.log('Your shopping cart is empty.')
 //       }
