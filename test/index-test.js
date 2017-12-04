@@ -76,13 +76,13 @@ describe("addToCart()", function() {
 });
 
 describe("viewCart()", function() {
-  xit("prints 'Your shopping cart is empty.' if the cart is empty", function() {
+  it("prints 'Your shopping cart is empty.' if the cart is empty", function() {
     viewCart();
 
     expect(console.log).toHaveBeenCalledWith("Your shopping cart is empty.")
   });
 
-  xit("correctly prints a one-item cart", function() {
+  it("correctly prints a one-item cart", function() {
     addToCart("lemons");
 
     const lemonsCost = getCart()[0]["lemons"];
@@ -94,7 +94,7 @@ describe("viewCart()", function() {
     );
   });
 
-  xit("correctly prints a two-item cart", function() {
+  it("correctly prints a two-item cart", function() {
     addToCart("mango");
     addToCart("nuts");
 
@@ -108,7 +108,7 @@ describe("viewCart()", function() {
     );
   });
 
-  xit("correctly prints a three-or-more-item cart", function() {
+  it("correctly prints a three-or-more-item cart", function() {
     addToCart("orange");
     addToCart("pear");
     addToCart("quince");
