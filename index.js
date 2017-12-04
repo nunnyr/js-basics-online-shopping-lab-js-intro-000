@@ -30,7 +30,7 @@ function viewCart() {
     //Use array method.
     let itemInArray = Object.keys(cart[i]);
     let priceInArray = cart[i][itemInArray];
-        itemsandprices.push(itemx +' at $'+ pricex)  }
+        itemsandprices.push(itemInArray +' at $'+ priceInArray)  }
     let twoItems = itemsandprices.join(' and ');
     let first = itemsandprices.slice(0, -1).join(', ');
     let last = itemsandprices.slice(-1);
