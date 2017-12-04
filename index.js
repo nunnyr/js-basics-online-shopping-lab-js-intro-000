@@ -39,10 +39,10 @@ function viewCart() {
         console.log('Your shopping cart is empty.')
       }
         else if (cart.length === 1){
-          console.log(`${intro} ${itemsandprices}.`)
+          console.log(`${initial} ${itemsandprices}.`)
         }
           else if (cart.length === 2){
-            console.log(`${intro} ${dositems}.`)
+            console.log(`${initial} ${twoItems}.`)
           }
             else if (cart.length > 2){
               return(`${intro} ${beginning}, and ${end}.`)
